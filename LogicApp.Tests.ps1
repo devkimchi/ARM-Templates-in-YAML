@@ -4,16 +4,12 @@
 
 Param(
     [string] [Parameter(Mandatory=$true)] $ResourceGroupName,
-    [string] [Parameter(Mandatory=$true)] $SrcDirectory,
-    [string] [Parameter(Mandatory=$true)] $Username,
-    [string] [Parameter(Mandatory=$true)] $Password,
-    [string] [Parameter(Mandatory=$true)] $TenantId
+    [string] [Parameter(Mandatory=$true)] $SrcDirectory
 )
 
 Describe "Logic App Deployment Tests" {
     # Init
     BeforeAll {
-        az login --service-principal -u $Username -p $Password -t $TenantId
     }
 
     # Teardown
