@@ -3,6 +3,14 @@
 This provides a sample ARM template written in YAML
 
 
+## Further Readings ##
+
+* 한국어: [YAML로 ARM 템플릿 작성하기](#)
+* English:
+  * Mexia: [Writing ARM Templates in YAML](https://blog.mexia.com.au/writing-arm-templates-in-yaml)
+  * DevKimchi: [Writing ARM Templates in YAML](https://devkimchi.com/2018/08/07/writing-arm-templates-in-yaml/)
+
+
 ## Contribution ##
 
 Your contributions are always welcome! All your work should be done in your forked repository. Once you finish your work with corresponding tests, please send us a pull request onto our `master` branch for review.
